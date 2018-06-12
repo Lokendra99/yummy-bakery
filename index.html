@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bakery</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="yummy Bakery " />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- for-gallery-rotation -->
+<script src="js/modernizr.custom.97074.js"></script>
+<!-- //for-gallery-rotation -->
+<!-- FlexSlider -->
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+						$(window).load(function(){
+						  $('.flexslider').flexslider({
+							animation: "slide",
+							start: function(slider){
+							  $('body').removeClass('loading');
+							}
+						  });
+						});
+					  </script>
+<!-- //FlexSlider -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Comfortaa:400,300,700' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900" rel="stylesheet">
+</head>
+
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="header-nav">
+				<nav class="navbar navbar-default">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					  </button>
+						<div class="logo">
+							<img src="images/logo-3.png" alt="" class="navbar-brand">
+						</div>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					 <ul class="nav navbar-nav">
+						<li class="hvr-sweep-to-bottom active"><a href="index.html">Home</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="about.html">About</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="services.html">Services</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="gallery.html">Gallery</a></li>
+						<li class="hvr-sweep-to-bottom"><a href="contact.html">Contact Us</a></li>
+					  </ul>
+					</div><!-- /.navbar-collapse -->
+				</nav>
+			</div>
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<section class="slider">
+				<div class="flexslider">
+					<ul class="slides">
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h3>Baked fresh for you </h3>
+									<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>
+									<div class="more">
+										<a href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h3>Baked fresh Daily </h3>
+									<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>
+									<div class="more">
+										<a href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="banner-info">
+								<div class="banner-info-left">
+									<h3>Baked fresh for you </h3>
+									<p>WE ARE EXCITED TO COOK FOR YOU TODAY</p>
+									<div class="more">
+										<a href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<div class="banner-pos">
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><img src="images/bread.png" alt=""> OUR BREADS</h3>
+						<p>To take a trivial example, which of us ever undertakes laborious
+							physical exercise.</p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><img src="images/cookie.png" alt=""> BEST COOKIES</h3>
+						<p>To take a trivial example, which of us ever undertakes laborious
+							physical exercise.</p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><img src="images/wedding-cake.png" alt=""> WEDDING CAKE</h3>
+						<p>To take a trivial example, which of us ever undertakes laborious
+							physical exercise.</p>
+					</div>
+				</div>
+				<div class="col-md-3 banner-pos-left">
+					<div class="banner-pos-left-info">
+						<h3><img src="images/pie.png" alt=""> TARTS AND PIES</h3>
+						<p>To take a trivial example, which of us ever undertakes laborious
+							physical exercise.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- welcome -->
+	<div class="welcome">
+		<div class="container">
+			<h2>Welcome !</h2>
+			<p class="ever">We Make it Happens,Something Amazing For You Everyday.</p>
+			<div class="welcome-grids">
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<img class="set-size" src="images/birthday-cake.png" alt="">
+						</div>
+						<h4>BIRTHDAY CAKES</h4>
+						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+							esse quam.</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<img class="set-size" src="images/wedding-cake-another.png" alt="">
+						</div>
+						<h4>WEDDING CAKES</h4>
+						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+							esse quam.</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<img class="set-size" src="images/party-cake.png" alt="">
+						</div>
+						<h4>PARTY CAKES</h4>
+						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+							esse quam.</p>
+					</div>
+				</div>
+				<div class="col-md-3 welcome-grid">
+					<div class="welcome-grd">
+						<div class="icons">
+							<img class="set-size" src="images/anniversary-cake.png" alt="">
+						</div>
+						<h4>ANNIVERSARY CAKES</h4>
+						<p>Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+							esse quam.</p>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //welcome -->
+<!-- banner-text -->
+	<div class="banner-text">
+		<div class="container">
+			<div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf">
+								<h3>Treat yourself with a sweet, freshly baked goodie</h3>
+							</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf1">
+								<h3>Everyone knows, that treating yourself with tasty</h3>
+							</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf2">
+								<h3>Treat yourself with a sweet, freshly baked goodie</h3>
+							</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;">
+						<div class="banner-wrap">
+							<div class="banner-text-info banner-text-inf3">
+								<h3>Enjoy our tasty array of bakery products!</h3>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+				<script src="js/jquery.wmuSlider.js"></script>
+					<script>
+						$('.example1').wmuSlider();
+					</script>
+		</div>
+	</div>
+<!-- //banner-text -->
+<div class="services1">
+	<div class="container">
+		<h3>Our Master Chef's</h3>
+		<p class="ever">We Make it Happens,Something Amazing For You Everyday.</p>
+		<div class="services-grids wthree-agile">
+			<div class="col-md-4 services-grid">
+				<div class="para">
+					<span><img src="images/chef1.jpg" alt="" class="img-responsive" /></span>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+						consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+						ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				</div>
+			</div>
+			<div class="col-md-4 services-grid">
+				<div class="para">
+					<span><img src="images/chef2.jpg" alt="" class="img-responsive" /></span>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+						consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+						ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				</div>
+			</div>
+			<div class="col-md-4 services-grid">
+				<div class="para">
+				<span><img src="images/chef3.jpg" alt="" class="img-responsive" /></span>
+					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+						consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt
+						ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!-- //services -->
+
+<!-- newsletter -->
+	<div class="newsletter w3layouts-agile">
+		<div class="container">
+			<div class="newsletter-info-agile-w3ls">
+				<h3>Newsletter</h3>
+				<div class="letter">
+				<form action="#" method="post">
+									<input type="email" placeholder="Enter Your Mail..." required="">
+									<input type="submit" value="" >
+
+							</form>
+				</div>
+				<div class="clearfix"> </div>
+
+			</div>
+		</div>
+	</div>
+<!-- //newsletter -->
+<!-- footer -->
+	<div class="footer w3layouts-agile">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="col-md-3 footer-grid-w3layouts-agile">
+					<h3 class="title">Services</h3>
+					<ul>
+						<li><a href="#">Rerum hic tenetur</a></li>
+						<li><a href="#">Molestiae non recusandae</a></li>
+						<li><a href="#">Voluptates repudiandae</a></li>
+						<li><a href="#">Necessitatibus saepe</a></li>
+						<li><a href="#">Debitis aut rerum</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid-w3layouts-agile">
+					<h3 class="title">Information</h3>
+					 <ul>
+						<li><a href="#">Quibusdam et aut</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">Archives</a></li>
+						<li><a href="#">Our Staff</a></li>
+					</ul>
+				</div>
+		    <div class="col-md-3 footer-grid-w3layouts-agile">
+					<h3 class="title">More details</h3>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms &amp; Conditions</a></li>
+						<li><a href="#">Site map</a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 footer-grid-w3layouts-agile contact-grid">
+						<h3 class="title">Contact us</h3>
+						<ul>
+							<li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Sector-3,Indirapuram</li>
+							<li class="adrs">Ghaziabad,India</li>
+							<li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>+91 00000000</li>
+							<li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:example@mail.com">mail@example.com</a></li>
+						</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<div class="copy">
+		<div class="container">
+			<div class="copy-left-w3l-agile">
+				<p>© Yummy Cake. All rights reserved</p>
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li><a href="#" class="fb"></a></li>
+					<li><a href="#"></a></li>
+					<li><a href="#" class="gg"></a></li>
+					<li><a href="#" class="pn"></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!--//footer-->
+<!-- for bootstrap working -->
+		<script src="js/bootstrap.js"> </script>
+<!-- //for bootstrap working -->
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear'
+				};
+			*/
+
+			$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>
+</html>

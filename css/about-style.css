@@ -1,0 +1,14 @@
+/* body{
+  background: url('http://getwallpapers.com/wallpaper/full/2/9/1/732140-cute-cupcake-backgrounds-1920x1200-lockscreen.jpg');
+  background-size:cover;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  -ms-background-size:cover;
+  position:relative;
+} */
+
+.box-styling{
+  box-shadow: 10px 10px 5px #dac9c9b8;
+  background-color: #fafafa;
+}
