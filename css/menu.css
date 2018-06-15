@@ -1,0 +1,11 @@
+.menu-image-styling{
+  width:100%;
+  height:auto;
+}
+
+
+.menu-list{
+  padding: 2em 3em;
+  margin-top: .7em;
+  box-shadow: 10px 10px 8px #888888
+}
